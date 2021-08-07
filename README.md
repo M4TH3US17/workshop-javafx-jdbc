@@ -1,6 +1,6 @@
 
 # Sobre
-  sistema que gerencia departamentos e vendedores
+  sistema de gerenciamento de departamentos e vendedores
  
 ## Workshop-javaFX-JDBC (Vídeo)
 
