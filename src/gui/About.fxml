@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<VBox prefHeight="188.0" prefWidth="373.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label text="About">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+         <padding>
+            <Insets bottom="10.0" left="20.0" top="10.0" />
+         </padding>
+      </Label>
+      <Label text="Project JavaFX + MySQL and JDBC" textFill="#6b2727">
+         <padding>
+            <Insets left="20.0" />
+         </padding>
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label prefHeight="16.0" prefWidth="321.0" text="Departments and sellers system" textFill="#6b2727">
+         <VBox.margin>
+            <Insets left="20.0" top="3.0" />
+         </VBox.margin>
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label text="Development">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+         <VBox.margin>
+            <Insets left="20.0" top="10.0" />
+         </VBox.margin>
+      </Label>
+      <Label text="Project designed to consolidate understanding of">
+         <VBox.margin>
+            <Insets left="20.0" top="10.0" />
+         </VBox.margin>
+      </Label>
+      <Label text="JDBC and SQL">
+         <VBox.margin>
+            <Insets left="20.0" top="3.0" />
+         </VBox.margin>
+      </Label>
+      <Label text="Matheus Washigton Dalvino Marques">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+         <VBox.margin>
+            <Insets left="20.0" top="10.0" />
+         </VBox.margin>
+         <textFill>
+            <LinearGradient endX="1.0" endY="0.4903846153846154" startX="0.1875" startY="0.25480769230769235">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.12335526198148727" green="0.19366776943206787" blue="0.5921052694320679" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.9533333333333333">
+                     <color>
+                        <Color red="0.9605262875556946" green="0.07559698075056076" blue="0.07559698075056076" opacity="0.8100000023841858" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.9473684430122375" green="0.02631578966975212" blue="0.02631578966975212" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+   </children>
+</VBox>

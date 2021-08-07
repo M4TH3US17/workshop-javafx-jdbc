@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<VBox prefHeight="331.0" prefWidth="399.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.DepartmentViewController">
+   <children>
+      <Label text="Department Registration">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+         <padding>
+            <Insets left="5.0" top="5.0" />
+         </padding>
+         <VBox.margin>
+            <Insets left="180.0" />
+         </VBox.margin>
+         <textFill>
+            <LinearGradient endX="0.6442307692307692" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.5921052694320679" green="0.0520833320915699" blue="0.0520833320915699" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <ToolBar cache="true" prefHeight="40.0" prefWidth="200.0">
+        <items>
+          <Button fx:id="btnNew" defaultButton="true" mnemonicParsing="false" onAction="#onBtnNewAction" text="New" textFill="#196e0f">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font></Button>
+        </items>
+      </ToolBar>
+      <TableView fx:id="tableViewDepartment" prefHeight="269.0" prefWidth="399.0">
+        <columns>
+          <TableColumn fx:id="tableColumnId" prefWidth="75.0" text="Id" />
+          <TableColumn fx:id="tableColumnName" prefWidth="152.0" text="Name" />
+            <TableColumn fx:id="tableColumnEDIT" prefWidth="75.0" />
+            <TableColumn fx:id="tableColumnREMOVE" prefWidth="96.0" />
+        </columns>
+      </TableView>
+   </children>
+</VBox>
